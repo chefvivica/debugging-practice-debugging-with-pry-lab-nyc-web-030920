@@ -8,11 +8,11 @@ def turtles
     ]
 end
 
-# def turtle_traits(turtles)
-#   newarr = []
-#   turtles.map do |turtle|
+def turtle_traits(turtles)
+  newarr = []
+  turtles.map do |turtle|
 
-#     newarr << turtle[:traits]
-#     end 
-# newarr
-# end
+    newarr << turtle[:traits]
+    end 
+newarr
+end
