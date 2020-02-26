@@ -11,7 +11,7 @@ end
 def turtle_traits(turtles)
   newarr = []
   turtles.map do |turtle|
-    turtle[:traits].each do |n|
+    turtle.each do |n|
       newarr << n
       end
   end 
