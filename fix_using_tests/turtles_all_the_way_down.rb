@@ -11,10 +11,8 @@ end
 def turtle_traits(turtles)
   newarr = []
   turtles.map do |turtle|
-    binding.pry
-    turtle[:traits].each do |n|
-      newarr << n
-      end
-  end 
+
+    newarr << turtle[:traits]
+    end 
  newarr
 end
